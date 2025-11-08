@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       '@luxass/eslint-config':
-        specifier: 6.0.2
-        version: 6.0.2(@vue/compiler-sfc@3.4.31)(eslint-plugin-format@1.0.2(eslint@9.39.1))(eslint@9.39.1)(typescript@5.9.3)(vitest@4.0.8(@types/debug@4.1.12)(@types/node@22.19.0)(yaml@2.8.1))
+        specifier: 6.0.3
+        version: 6.0.3(@vue/compiler-sfc@3.4.31)(eslint-plugin-format@1.0.2(eslint@9.39.1))(eslint@9.39.1)(typescript@5.9.3)(vitest@4.0.8(@types/debug@4.1.12)(@types/node@22.19.0)(yaml@2.8.1))
       '@types/node':
         specifier: 22.19.0
         version: 22.19.0
@@ -344,8 +344,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@luxass/eslint-config@6.0.2':
-    resolution: {integrity: sha512-tPWcyBscpo4y1piA0Oez31DUj+fIOfmCj67mmDXDjOsbFErds9PpUdLFMPgDD/d1nzSc1xvHfpdJ1qAZDF6wNw==}
+  '@luxass/eslint-config@6.0.3':
+    resolution: {integrity: sha512-6VJOowLawKu4fWWJH8Y9trZxsmEFlCIKTzzeE/m9Xwpkxz8/FhPswWcmNVDiyHDek7nVbPfSf7jw8g8Sb4/oXA==}
     engines: {node: '>=22'}
     peerDependencies:
       '@eslint-react/eslint-plugin': ^2.0.1
@@ -2296,7 +2296,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
 
-  '@luxass/eslint-config@6.0.2(@vue/compiler-sfc@3.4.31)(eslint-plugin-format@1.0.2(eslint@9.39.1))(eslint@9.39.1)(typescript@5.9.3)(vitest@4.0.8(@types/debug@4.1.12)(@types/node@22.19.0)(yaml@2.8.1))':
+  '@luxass/eslint-config@6.0.3(@vue/compiler-sfc@3.4.31)(eslint-plugin-format@1.0.2(eslint@9.39.1))(eslint@9.39.1)(typescript@5.9.3)(vitest@4.0.8(@types/debug@4.1.12)(@types/node@22.19.0)(yaml@2.8.1))':
     dependencies:
       '@antfu/install-pkg': 1.1.0
       '@clack/prompts': 0.11.0
