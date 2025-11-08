@@ -11,7 +11,10 @@
   "packageManager": "pnpm@10.20.0",
   "license": "MIT",
   "homepage": "https://github.com/luxass/esbuild-import-transform",
-  "repository": "https://github.com/luxass/esbuild-import-transform",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luxass/esbuild-import-transform.git"
+  },
   "bugs": {
     "url": "https://github.com/luxass/esbuild-import-transform/issues"
   },
@@ -23,20 +26,14 @@
   ],
   "exports": {
     ".": {
-      "import": {
-        "types": "./dist/index.d.ts",
-        "default": "./dist/index.mjs"
-      },
-      "require": {
-        "types": "./dist/index.d.cts",
-        "default": "./dist/index.cjs"
-      }
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
     },
     "./package.json": "./package.json"
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.cts",
   "files": [
     "dist"
   ],
@@ -44,8 +41,8 @@
     "node": ">=20"
   },
   "scripts": {
-    "build": "tsup",
-    "dev": "tsup --watch",
+    "build": "tsdown",
+    "dev": "tsdown --watch",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",
@@ -56,11 +53,12 @@
   },
   "devDependencies": {
     "@luxass/eslint-config": "6.0.2",
-    "@types/node": "22.0.0",
+    "@types/node": "22.19.0",
     "esbuild": "0.25.12",
     "eslint": "9.39.1",
     "eslint-plugin-format": "1.0.2",
-    "tsup": "8.5.0",
+    "publint": "0.3.15",
+    "tsdown": "0.16.1",
     "typescript": "5.9.3",
     "vitest": "4.0.8"
   }
