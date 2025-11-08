@@ -9,13 +9,13 @@ importers:
   .:
     devDependencies:
       '@luxass/eslint-config':
-        specifier: ^5.1.1
+        specifier: 5.1.1
         version: 5.1.1(@vue/compiler-sfc@3.4.31)(eslint-plugin-format@1.0.1(eslint@9.32.0))(eslint@9.32.0)(typescript@5.8.3)(vitest@3.2.4(@types/debug@4.1.12)(@types/node@22.16.5)(yaml@2.8.0))
       '@types/node':
-        specifier: ^22.0.0
+        specifier: 22.16.5
         version: 22.16.5
       esbuild:
-        specifier: ^0.25.8
+        specifier: 0.25.8
         version: 0.25.8
       eslint:
         specifier: ^9.32.0
@@ -24,10 +24,10 @@ importers:
         specifier: ^1.0.1
         version: 1.0.1(eslint@9.32.0)
       tsup:
-        specifier: ^8.5.0
+        specifier: 8.5.0
         version: 8.5.0(postcss@8.5.6)(typescript@5.8.3)(yaml@2.8.0)
       typescript:
-        specifier: ^5.8.3
+        specifier: 5.8.3
         version: 5.8.3
       vitest:
         specifier: ^3.2.4
@@ -1701,6 +1701,7 @@ packages:
   source-map@0.8.0-beta.0:
     resolution: {integrity: sha512-2ymg6oRBpebeZi9UUNsgQ89bhx01TcTkmNTGnNO88imTmbSgy4nfujrgVEFKWpMTEGA11EDkTt7mqObTPdigIA==}
     engines: {node: '>= 8'}
+    deprecated: The work that was done in this beta branch won't be included in future versions
 
   spdx-exceptions@2.5.0:
     resolution: {integrity: sha512-PiU42r+xO4UbUS1buo3LPJkjlO7430Xn5SVAhdpzzsPHsjbYVflnnFdATgabnLude+Cqu25p6N+g2lw/PFsa4w==}
